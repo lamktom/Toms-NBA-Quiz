@@ -1,0 +1,40 @@
+#container {
+	max-width: 1000px;
+	padding: 0 20px 0;
+	margin: 0 auto;
+}
+
+/*Clearfix*/
+#container::before, 
+#container::after {
+	display: table;
+	content: '';
+}
+
+/*content that comes after row will act as though preceding row*/
+#container::after {
+	clear: both; 
+}
+
+
+.col-12 {
+	float: left; 
+	/*half a gutter is 10px, 10/960= 1.041666%*/
+	padding-left: 1.04166666%;
+	padding-right: 1.04166666%;
+}
+
+/*defaults for mobile*/
+.col-12 {
+  width: 100%;
+}
+
+/* Non-mobile, grid */
+@media only screen and (min-width: 640px) {
+  .col-12 {
+  	width: 100%;
+  }
+}
+
+
+

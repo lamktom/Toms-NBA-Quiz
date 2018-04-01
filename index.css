@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif; 
+	background: url('http://hdwpro.com/wp-content/uploads/2016/04/Sports-Basketball-Wallpaper.jpg') fixed;
+}
+
+#container {
+	color: #d75f07;
+}
+
+.quiztitle {
+	text-align: center;
+	font-size: 75px;
+	margin-bottom: 25%;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.ready-question {
+	font-size: 50px;
+	text-align: center;
+	padding: 0 15% 0;
+	width: 100%;
+	margin-bottom: 18%;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+button {
+	cursor: url('http://cur.cursors-4u.net/sports/spo-2/spo145.cur'), default;
+	width: 100%;
+	background-color: #66b3ff; 
+	text-align: center; 
+	border-radius: 10px;
+	font-size: 40px;
+}
+
+button:hover {
+	background-color: black;
+	color: lightgray;
+}
+
+fieldset {
+	border: none; 
+	display: flex;
+	flex-direction: column; 
+	border-radius: 10px;
+	background: rgba(255,255,255,0.7);
+}
+
+.feedback-page {
+	font-size: 30px;
+	border-radius: 10px;
+	background: rgba(255,255,255,0.7);
+	margin-top: 10%;
+}
+
+label {
+	width: 100%;
+	font-size: 30px;
+	color: black;
+}
+
+label:hover {
+	background-color: #3894AF;
+}
+
+#question {
+	font-size: 40px;
+	background: rgba(255,255,255,0.8);
+	margin-bottom: 0; 
+	margin-top: 20%;
+	border-radius: 10px;
+}
+
+#status-bar {
+	margin-top: 10px;
+	text-align: right;
+	font-size: 20px;
+	color: white;
+	background: rgba(0, 0, 0, 0.8);
+	margin-left: 70%;
+}
+
+input[type=radio] {
+	width: 30px;
+	height: 30px;
+}
+
+img[src] {
+	display: flex;
+	flex-direction:column;
+	width: 100%;
+	height: 100%;
+}
+
+#last-page {
+	text-align: center;
+	margin-top: 40%;
+	font-size: 40px;
+}
+
+
+
+
+
